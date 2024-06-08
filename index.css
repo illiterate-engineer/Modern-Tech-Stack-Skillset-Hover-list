@@ -1,0 +1,53 @@
+/* ------------------tech stack------------------- */
+body{
+      display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height: 100vh;
+}
+.container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.tech__stack {
+    align-items: center;
+    //bottom: 0;
+    color: #767676;
+    display: flex;
+    //font-size: 1.7rem;
+    //left: 0;
+    //position: absolute;
+   //margin-left:3.2rem;
+}
+
+.tech__stack p {
+    border-right: 2px solid rgba(45, 46, 50, .5);
+    color: #2d2e32;
+    font-weight: 600;
+    margin-right: 2rem;
+    padding-right: 2rem;
+    height: 1rem;
+    color: var(--title-color);
+}
+
+.tech__stack ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    list-style: none;
+}
+
+.tech__stack ul li {
+    cursor: pointer;
+}
+
+.tech__stack ul li div svg {
+    height: 2.8rem;
+    transition: all .3s ease-in-out;
+    width: 6rem;
+}
+
+.tech__stack ul li div svg:hover {
+    transform: translateY(-5px);
+}
